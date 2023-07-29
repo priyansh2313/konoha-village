@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+
+  <title>anime</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  
+  <style>
+
+
+  
+  
+  p{
+    font-family: 'Lobster', cursive;
+    font-size:20px;
+  }
+
+  .topbar{
+    height:83px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    background-color:rgb(13, 170, 13);
+    transition: background-color 0.55s,
+    color 0.55s;
+    
+
+    position: fixed;
+    top:0px;
+    right:0px;
+    left:0px;
+    z-index:200;
+
+  }
+
+  .topbar:hover{
+    background-color:lightgreen;
+    color:green;
+    cursor:pointer;
+    
+  }
+.aburame-clan-pic{
+  height:70px;
+  width:70px;
+
+}
+.hidden-leaf-icon{
+  opacity:0;
+  transition: opacity 0.85s;
+}
+
+.hidden-leaf-icon:hover{
+  opacity:1;
+  
+}
+
+
+body{
+  background:linear-gradient(90deg, rgba(98,94,168,1) 1%, rgba(121,9,49,1) 47%, rgba(119,13,53,1) 48%, rgba(23,188,221,1) 100%);
+  padding-top:90px;
+}
+
+.sidebar{
+
+position:fixed;
+top:83px;
+left:0px;
+bottom:0px;
+background-color:white;
+width:70px;
+padding-top:0px;
+background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(104,121,9,1) 0%, rgba(0,212,255,1) 100%);
+
+
+}
+
+kage-buttons{
+  height:74px;
+  margin-bottom:1px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  margin-bottom:30px;
+}
+
+
+.kage-icon-buttons{
+height:50px;
+margin-bottom:86px;
+width:50px;
+opacity:1;
+transition:opacity 0.45s;
+}
+
+.kage-icon-buttons:hover{
+  opacity:0.39
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: 1fr;
+  column-gap:28px;
+row-gap:190px;
+
+
+}
+
+.grid img{
+  border-radius:30px;
+}
+
+.hokage-token{
+  height:400px;
+  filter:drop-shadow(5px 5px 5px black );
+  transition:filter 0.55s,
+  height 0.55s;
+}
+
+.hokage-token:hover{
+  height:480px;
+  filter:drop-shadow(9px 9px 4px rgb(0, 193, 87));
+  cursor:pointer;
+}
+
+.container{
+  margin-top:500px;
+}
+
+.container-fluid{
+  background-image:url(/new-pics/all\ animes\ pic.png);
+  image-orientation: from-image;
+  padding:0px 0px;
+
+}
+.badge-1{
+  background-color:lightcoral;
+  color:black;
+  border-radius:6px;
+  transition:background-color 0.55s,padding 0.55s,
+  color 0.55s,box-shadow 0.55s;
+
+}
+.badge-1:hover{
+  background-color:white;
+  color:green;
+  box-shadow:inset;
+  padding:9px;
+  cursor:pointer;
+  font-weight:600px ;
+}
+
+
+
+  </style>
+</head>
+<body style="
+text-align:center;
+">
+
+
+
+  <div class="topbar">
+    <div class="left-section"><img class="aburame-clan-pic" src="clan symbols/Aburame_Symbol.png">
+    <img  class="aburame-clan-pic" src="./clan symbols/wysmntbsrdq51.png">
+    <img  class="aburame-clan-pic" src="./clan symbols/Akimichi_Symbol.svg.webp">
+    <img  class="aburame-clan-pic" src="./clan symbols/Hatake_Symbol.webp">
+    <img  class="aburame-clan-pic" src="./clan symbols/Uchiha_Symbol.png">
+    <img  class="aburame-clan-pic" src="./clan symbols/uzumaki_clan_symbol_by_jormxdos_dfh9vq2-pre.png">
+    <urn class="hidden-leaf-icon"><img  class="aburame-clan-pic" src="./clan symbols/download.png"></urn></div>
+  
+
+  <div class="middle-section"><h1
+    style="
+    background-color:rgb(13, 170, 13);
+    
+    color:white;
+    font-family:'Lobster', cursive;
+    width:600px;">THE HIDDEN LEAF VILLAGE
+    </h1></div>
+
+  <div class="right-section"><img  class="aburame-clan-pic" src="./clan symbols/五七桐に七葉根笹.png">
+  </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="kage-buttons">
+      <img class="kage-icon-buttons" src="./clan symbols/st,small,507x507-pad,600x600,f8f8f8 (1).jpg">
+    </div>
+    <div>
+      <img class="kage-icon-buttons" src="./clan symbols/st,small,507x507-pad,600x600,f8f8f8.jpg">
+    </div>
+    <div>
+      <img class="kage-icon-buttons" src="./clan symbols/e331bc8e6b06c58e6b05bff59ad17003.640x640x1.jpg">
+    </div>
+    <div>
+      <img class="kage-icon-buttons" src="./clan symbols/flat,750x1000,075,f (1).jpg">
+    </div>
+
+  </div>
+  
+  <p class="
+  font-size:40;
+  ">List of all hokages</p>
+
+  <div class="grid">
+    <div class="preview"><div><a href="./hokages/hashirama-senju.html"><img class="hokage-token" src="./new-pics/Hashirama-Senju-PNG-Pic.png" height="200"></a></div>
+    <div> 1st hokage- Hashirama senju</div></div>
+    
+<div class="preview"><div><a href="./hokages/tobirama.html"><img class="hokage-token" src="./new-pics/Tobirama.webp"  height="200"></a></div>
+<div>2nd hokage- Tobirama senju</div></div>
+    
+    <div>
+    <div><img class="hokage-token" src="./new-pics/Hiruzen-Sarutobi-PNG-File.png" height="200"></div>
+    <div>3rd hokage- Hiruzen sarutobi</div>
+    </div>
+
+
+      <div>
+    <div><img class="hokage-token" src="./new-pics/minato new image.png" height="200"></div>
+    <div>4th hokage- Minato namikaze</div>
+    </div>
+
+
+    <div>
+    <div><img class="hokage-token" src="./new-pics/dcef4b07806dba6f9d40a2de4568a473.png" height="200"></div>
+    <div>5th hokage-  Tsunade senju</div>
+    </div>
+
+    <div>
+    <div><img class="hokage-token" src="./new-pics/32086-2-kakashi-transparent.png" height="250"></div>
+    <div>6th hokage- Kakashi hatake</div>
+    </div>
+
+
+    <div>
+    <div><img class="hokage-token" src="./new-pics/new naruto pic.png" height="250"></div>
+    <div>7th hokage- Naruto uzumaki</div>
+    </div>
+
+    
+  </div>
+
+
+
+  <div class="container py-4">
+    <header class="pb-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
+        <title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
+      
+      </a>
+
+
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Round the clock updates </h1>
+        <p class="col-md-8 fs-4">All your favourites anime and related news,episodes will be covered from around the world.</p>
+        <button class="btn btn-primary btn-lg" type="button">Can't wait, CLICK HERE</button>
+      </div>
+    </div>
+
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+        <div class="h-100 p-5 text-bg-dark rounded-3">
+          <h2></h2>
+          <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+          <button class="btn btn-outline-light" type="button">Example button</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+          <h2>Add borders</h2>
+          <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+          <button class="btn btn-outline-secondary" type="button">Example button</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="pt-3 mt-4 text-body-secondary border-top">
+      © 2023
+    </footer>
+  </div>
+    
+      
+    
+
+    
+<div class="d-flex gap-2 justify-content-center py-5">
+  <span class="badge-1">Naruto</span>
+  <span class="badge-2">One punch man</span>
+  <span class="badge-3">Jujutsu kaisen</span>
+  <span class="badge-4">Bongo street dogs</span>
+  <span class="badge-5">Boruto</span>
+  <span class="badge-6">Death note</span>
+  <span class="badge-7">Vinland saga</span>
+  <span class="badge-8">Onepiece</span>
+</div>
+  
+
+
+
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2023 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  
+</body>
+</html>
